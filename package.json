@@ -1,0 +1,12 @@
+{
+  "name": "socketio-statuscheck",
+  "version": "0.0.1",
+  "description": "Routinary checks the status of a socketio connection on the server side, it must be installed on both sides",
+  "author": "Jaime Okhuysen <jamesokbo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "socket.io": "^1.4.6",
+    "timeout-callback": "^1.0.0"
+  }
+}
