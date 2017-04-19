@@ -1,6 +1,5 @@
 var async = require('async');
 var timeoutCallback = require('timeout-callback');
-var errors = require('errors.js')
 
 
 module.exports = function(socket, type, loopTimeout,socketTimeout){
@@ -34,6 +33,6 @@ module.exports = function(socket, type, loopTimeout,socketTimeout){
         );
     }
     else{
-        throw errors.e01;
+        throw Error("Type must be specified; either 'client' or 'server'");
     }
 };
